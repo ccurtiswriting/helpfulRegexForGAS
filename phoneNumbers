@@ -1,0 +1,2 @@
+//Validation for 10-digit US phone numbers in these formats: 555-123-4567, 555 123 4567, or 5551234567.
+^[0-9]{3}[\s.-][0-9]{3}[\s.-][0-9]{4}$|^[0-9]{10}$
